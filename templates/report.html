@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html> 
+<style> 
+    /*set border to the form*/ 
+      
+    form { 
+        border: 3px solid #f1f1f1; 
+    } 
+    /*assign full width inputs*/ 
+      
+    input[type=text], 
+    input[type=password] { 
+        width: 100%; 
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: 1px solid #ccc; 
+        box-sizing: border-box; 
+    } 
+    /*set a style for the buttons*/ 
+	
+	.choose { 
+        background-color: #87CEEB; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        border: none; 
+        cursor: pointer; 
+        width: 45%; 
+    }
+      
+    .button { 
+        background-color: #4CAF50; 
+        color: white; 
+        padding: 14px 25px; 
+        margin: 8px 5px; 
+        border: none; 
+        cursor: pointer;
+    }
+	.button1 { 
+			background-color: red; 
+			color: white; 
+			padding: 14px 25px; 
+			margin: 8px 5px; 
+			border: none; 
+			cursor: pointer;
+			width: 45%;			
+		}	
+	.boxed {
+        margin-left: auto;
+        margin-right: auto;
+        width: 33%;
+		height:40%;
+        margin-top: 60px;
+        border: 2px solid black;
+      }
+    /* set a hover effect for the button*/ 
+      
+    button:hover { 
+        opacity: 0.8; 
+    } 
+	button1:hover { 
+        opacity: 0.8; 
+    }
+	
+	a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	}
+     
+    /*centre the display image inside the container*/ 
+      
+    .imgcontainer { 
+        text-align: center; 
+        margin: 24px 0 12px 0; 
+    } 
+    /*set image properties*/ 
+      
+    img.avatar { 
+        width: 30%; 
+        border-radius: 50%; 
+		height:30%;
+    } 
+    /*set padding to the container*/ 
+      
+    .container { 
+        padding: 16px; 
+    }  
+       
+</style> 
+  
+<body> 
+  
+    <h2>REPORT!!!</h2> 
+	<div class="boxed">
+        <div class="imgcontainer"> 
+            <img src= "https://cdn3.vectorstock.com/i/1000x1000/58/37/doctor-hand-writing-on-medical-report-vector-8295837.jpg" 
+                 alt="Avatar" class="avatar"> 
+        </div> 
+        <center>
+        <div class="container"> 
+            <label><b>We are sorry to inform that you've been diagnosed with {{result}}!</b></label> 
+			<br/> 
+			<h2>Please have a chat with our bot to know more...</h2>
+			<br/>
+			<a href="/" target="http://127.0.0.1:5000/" margin="5px"><button type = "button" class="button1" value="Back" />Back</a>
+			<a href="/report" target="http://127.0.0.1:5000/report" margin="5px"><button type = "button" class="button" value="Proceed to Chat" />Proceed to Chat</a>
+        </div> 
+  </center>
+        <center><div class="container" style="background-color:#f1f1f1">   
+        </div>
+		</div>
+</center>		
+  
+</body> 
+  
+</html> 

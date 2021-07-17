@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html> 
+<style> 
+    /*set border to the form*/ 
+      
+    form { 
+        border: 3px solid #f1f1f1; 
+    } 
+    /*assign full width inputs*/ 
+      
+    input[type=text], 
+    input[type=password] { 
+        width: 100%; 
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: 1px solid #ccc; 
+        box-sizing: border-box; 
+    } 
+    /*set a style for the buttons*/ 
+	
+	.choose { 
+        background-color: #87CEEB; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        border: none; 
+        cursor: pointer; 
+        width: 45%; 
+    }
+      
+    .button { 
+        background-color: #4CAF50; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0; 
+        border: none; 
+        cursor: pointer; 
+        width: 25%; 
+    } 
+	.boxed {
+        margin-left: auto;
+        margin-right: auto;
+        width: 33%;
+		height:40%;
+        margin-top: 60px;
+        border: 2px solid black;
+      }
+    /* set a hover effect for the button*/ 
+      
+    button:hover { 
+        opacity: 0.8; 
+    } 
+     
+    /*centre the display image inside the container*/ 
+      
+    .imgcontainer { 
+        text-align: center; 
+        margin: 24px 0 12px 0; 
+    } 
+    /*set image properties*/ 
+      
+    img.avatar { 
+        width: 30%; 
+        border-radius: 50%; 
+		height:30%;
+    } 
+    /*set padding to the container*/ 
+      
+    .container { 
+        padding: 10px; 
+    }  
+       
+</style> 
+  
+<body> 
+  
+    <h2>WELCOME!!!</h2> 
+	<div class="boxed">
+        <div class="imgcontainer"> 
+            <img src= "data:image/jpeg;base64,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" 
+                 alt="Avatar" class="avatar"> 
+        </div> 
+        <center>
+        <div class="container"> 
+            <label><b>Select a skin image</b></label> 
+			<br/>
+            <h2>
+    <form action = "/home" method = "post" enctype="multipart/form-data">  
+        <input type="file" name="file" class="choose" /> 
+        <br/>	
+<br/>		
+		<input type = "submit" class="button" value="Upload">
+    </form>
+            </h2> 
+ {% with messages = get_flashed_messages() %}  
+         {% if messages %}  
+               {% for message in messages %}  
+                    <p>{{ message }}</p>  
+               {% endfor %}  
+         {% endif %}  
+      {% endwith %}
+           
+        </div> 
+  </center>
+        <center><div class="container" style="background-color:#f1f1f1">   
+        </div>
+		</div>
+</center>		
+  
+</body> 
+  
+</html> 
